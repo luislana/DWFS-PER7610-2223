@@ -1,3 +1,38 @@
+body{
+	background-color: #3A637F;
+	color: #fff;
+	padding:20px;
+}
+h1,h2,h3{
+	color:#DFDE60;
+	font-family: Arial;
+}
 h1{
+	font-size:34px;
+	text-align: center;
+}
+h2{
 	font-size:14px;
+	text-align: center;
+}
+hr{height: 2px;background-color: #fff;}
+.content{
+	width:780px;
+	margin:auto;
+}
+.cont50{
+	width: 50%;
+	float:left;
+}
+.rating{
+	list-style: none;
+}
+.rating li{
+	background-color: yellow;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	color:#yellow;
+	float:right;
+	margin:5px;
 }
